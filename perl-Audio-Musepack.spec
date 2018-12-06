@@ -67,9 +67,9 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1Audio/APE.pm
-/usr/lib/perl5/vendor_perl/5.28.1Audio/APETags.pm
-/usr/lib/perl5/vendor_perl/5.28.1Audio/Musepack.pm
+/usr/lib/perl5/vendor_perl/5.28.1/Audio/APE.pm
+/usr/lib/perl5/vendor_perl/5.28.1/Audio/APETags.pm
+/usr/lib/perl5/vendor_perl/5.28.1/Audio/Musepack.pm
 
 %files dev
 %defattr(-,root,root,-)
