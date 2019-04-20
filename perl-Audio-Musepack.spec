@@ -4,10 +4,10 @@
 #
 Name     : perl-Audio-Musepack
 Version  : 1.0.1
-Release  : 10
+Release  : 11
 URL      : https://cpan.metacpan.org/authors/id/D/DA/DANIEL/Audio-Musepack-1.0.1.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DA/DANIEL/Audio-Musepack-1.0.1.tar.gz
-Summary  : 'An object-oriented interface to Musepack file information and APE tag fields.'
+Summary  : An object-oriented interface to Musepack file information and APE tag fields.
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 BuildRequires : buildreq-cpan
@@ -25,6 +25,7 @@ that should be provided before the module is installed.
 Summary: dev components for the perl-Audio-Musepack package.
 Group: Development
 Provides: perl-Audio-Musepack-devel = %{version}-%{release}
+Requires: perl-Audio-Musepack = %{version}-%{release}
 
 %description dev
 dev components for the perl-Audio-Musepack package.
