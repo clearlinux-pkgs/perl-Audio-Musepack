@@ -4,7 +4,7 @@
 #
 Name     : perl-Audio-Musepack
 Version  : 1.0.1
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/D/DA/DANIEL/Audio-Musepack-1.0.1.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/D/DA/DANIEL/Audio-Musepack-1.0.1.tar.gz
 Summary  : 'An object-oriented interface to Musepack file information and APE tag fields.'
@@ -87,6 +87,6 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/Audio/APE.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Audio/APETags.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Audio/Musepack.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Audio/APE.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Audio/APETags.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Audio/Musepack.pm
